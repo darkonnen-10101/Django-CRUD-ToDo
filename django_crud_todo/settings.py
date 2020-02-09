@@ -74,7 +74,6 @@ WSGI_APPLICATION = 'django_crud_todo.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
 """
 DATABASES = {
     'default': {
@@ -93,6 +92,7 @@ DATABASES = {
     )
 
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -131,6 +131,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+"""
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
@@ -139,3 +140,4 @@ STATICFILES_DIRS = (
 )
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+"""
