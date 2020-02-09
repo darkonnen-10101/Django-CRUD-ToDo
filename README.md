@@ -25,3 +25,8 @@ python3 manage.py makemigrations
 ## Make migrations
 
 python3 manage.py migrate
+
+
+# Deployment heroku
+
+[Deployment on Heroku | CRUD-Django-ToDo](http://crudjangotodo.herokuapp.com/ "Django CRUD ToDo")
